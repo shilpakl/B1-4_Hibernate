@@ -18,23 +18,23 @@ public class Client
 		student.setID(182);
 		
 		//change id every time
-		student.setName("Niraj");
+		student.setName("Shilpa");
 		service.addStudent(student);
 		
 		//at this breakpoint, we have added one record to table
 		// Retrieve Operation
-		student = service.findStudentById(171);
+		student = service.findStudentById(170);
 		System.out.print("ID:"+student.getID());
 		System.out.println(" Name:"+student.getName());
 		
 		// Update Operation
 		student = service.findStudentById(171);
-		student.setName("Niraj jha");
+		student.setName("Shilpa kl");
 		service.updateStudent(student);
 		
 		//at this breakpoint, we have added one record to table
 		// Retrieve Operation
-		student = service.findStudentById(171);
+		student = service.findStudentById(170);
 		System.out.print("ID:"+student.getID());
 		System.out.println(" Name:"+student.getName());
 
