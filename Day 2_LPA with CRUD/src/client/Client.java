@@ -37,6 +37,7 @@ public class Client
 		student = service.findStudentById(170);
 		System.out.print("ID:"+student.getID());
 		System.out.println(" Name:"+student.getName());
+		System.out,println("")
 
 	}
 
